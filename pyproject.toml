@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonproject4"
+version = "0.1.0"
+description = ""
+authors = ["Gennady <topchiev@list.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
